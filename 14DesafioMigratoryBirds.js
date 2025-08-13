@@ -1,5 +1,4 @@
 function migratoryBirds(arr) {
-
     let placar = [0, 0, 0, 0, 0]
     let mais = 0
     let resultado = 0 
@@ -24,11 +23,8 @@ function migratoryBirds(arr) {
             resultado = i+1
         }
     }
-    console.log(resultado)
-    console.log(placar)
-    console.log(mais)
-    return mais
-}
 
+    return resultado
+}
 
 migratoryBirds([1, 4, 4, 4, 5, 3])
